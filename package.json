@@ -7,6 +7,9 @@
     "email": "ashkan.pourghasem@googlemail.com"
   },
   "license": "MIT",
+  "files": [
+    "./build/*"
+  ],
   "scripts": {
     "start": "node ./build.js -run -watch",
     "build": "node ./build.js",
