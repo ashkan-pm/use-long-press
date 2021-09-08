@@ -1,6 +1,6 @@
 {
   "name": "@aspm/use-long-press",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Handy React hook for dealing with long-press events with a developer-friendly and highly customizable API",
   "author": {
     "name": "Ashkan Pourghasem",
