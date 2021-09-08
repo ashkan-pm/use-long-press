@@ -1,16 +1,16 @@
 import { TEST } from '../constants';
-import { printTest } from '../main';
+import { useLongPress } from '../useLongPress';
 
 const logSpy = jest.spyOn(global.console, 'log');
-require('../main');
+require('../useLongPress');
 
-describe('Main', () => {
+describe('useLongPress', () => {
   beforeEach(() => {
     logSpy.mockClear();
   });
 
   it('Should console log constant', () => {
-    printTest();
+    useLongPress();
     expect(console.log).toHaveBeenCalledTimes(1);
     expect(console.log).toHaveBeenCalledWith(TEST);
   });
