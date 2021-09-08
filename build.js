@@ -3,8 +3,8 @@ const { build, ts, tsconfig, dirname, glob, log } = require('estrella');
 
 build({
   platform: 'browser',
-  entry: './src/main.ts',
-  outfile: './build/main.js',
+  entry: './src/useLongPress.ts',
+  outfile: './build/useLongPress.js',
   bundle: true,
   minify: true,
   sourcemap: true,

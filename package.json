@@ -7,8 +7,9 @@
     "email": "ashkan.pourghasem@googlemail.com"
   },
   "license": "MIT",
+  "main": "build/useLongPress.js",
   "files": [
-    "./build/*"
+    "build/"
   ],
   "scripts": {
     "start": "node ./build.js -run -watch",
