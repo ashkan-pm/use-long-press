@@ -1,0 +1,39 @@
+{
+  "name": "@aspm/use-long-press",
+  "version": "0.0.0",
+  "description": "Handy React hook for dealing with long-press events with a developer-friendly and highly customizable API",
+  "author": {
+    "name": "Ashkan Pourghasem",
+    "email": "ashkan.pourghasem@googlemail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./build.js -run -watch",
+    "build": "node ./build.js",
+    "lint": "eslint . --ext .ts,.js && prettier -c .",
+    "format": "prettier -w .",
+    "test": "jest --watch --silent",
+    "test:cov": "jest --coverage --silent"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "codecov": "^3.8.2",
+    "esbuild": "^0.11.14",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "estrella": "^1.4.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
